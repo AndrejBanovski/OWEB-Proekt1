@@ -1,0 +1,50 @@
+body {
+    background-color: #f7f5f0;
+    color: #2c3e50;
+    font-family: sans-serif;
+}
+
+header, section, footer {
+    background-color: #ffffff;
+    border: 1px solid #dcd6cd;
+    border-radius: 6px;
+}
+
+h1, h2, h3 {
+    color: #2e4a3e;
+}
+
+.bg-custom {
+    background-color: #2e4a3e !important;
+    color: white !important;
+}
+
+.btn-custom {
+    background-color: #2e4a3e;
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #1e332a;
+    color: white;
+}
+
+.nav-link {
+    color: #2e4a3e;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: #2e4a3e;
+    font-weight: bold;
+}
+.galerija-slika {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}

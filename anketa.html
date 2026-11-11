@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Травел Планер апп - Анкета</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="travelPlanerDizajn.css" />
+  </head>
+  <body class="container py-3">
+    <header class="text-center p-3 my-3">
+      <h1>Травел Планер апп</h1>
+      <p>Прашалник за импресии</p>
+      <nav class="nav justify-content-center">
+        <a class="nav-link" href="pochetnaStrana.html">Почетна страна</a>
+        <a class="nav-link" href="galerija.html">Галерија</a>
+        <a class="nav-link" href="blog.html">Блог</a>
+        <a class="nav-link" href="anketa.html">Анкета</a>
+      </nav>
+    </header>
+
+    <section class="p-3 my-3">
+      <h2>Ваши импресии:</h2>
+      <form>
+        <div class="form-group">
+          <label>1. Како ќе ја оцените апликацијата?</label><br />
+          <label class="mr-2"
+            ><input type="radio" name="ocenka" value="odlicno" /> Одлично</label
+          >
+          <label class="mr-2"
+            ><input type="radio" name="ocenka" value="dobro" /> Добро</label
+          >
+          <label class="mr-2"
+            ><input type="radio" name="ocenka" value="losho" /> Лошо</label
+          >
+        </div>
+
+        <div class="form-group">
+          <label>2. Дали ќе ја препорачате на пријатели?</label><br />
+          <label class="mr-2"
+            ><input type="radio" name="preporaka" value="da" /> Да</label
+          >
+          <label class="mr-2"
+            ><input type="radio" name="preporaka" value="ne" /> Не</label
+          >
+        </div>
+
+        <div class="form-group">
+          <label>3. Дали ќе ја користите повторно?</label><br />
+          <label class="mr-2"
+            ><input type="radio" name="povtorno" value="da" /> Да</label
+          >
+          <label class="mr-2"
+            ><input type="radio" name="povtorno" value="ne" /> Не</label
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="predlozi">4. Дали имате предлози за подобрување?</label>
+          <textarea
+            id="predlozi"
+            name="predlozi"
+            class="form-control"
+            rows="4"
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-custom">Испрати</button>
+      </form>
+    </section>
+
+    <footer class="p-3 text-center my-3">
+      <p class="m-0">
+        Развиено од <strong>Андреј Бановски</strong><br />
+        Емаил: <a href="mailto:banovskia@gmail.com">banovskia@gmail.com</a> |
+        Тел: +389 71 123 456<br />
+        &copy; 2026 Травел Планер апп.
+      </p>
+    </footer>
+  </body>
+</html>
